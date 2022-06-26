@@ -1,0 +1,106 @@
+
+        body {
+            background: url("https://previews.123rf.com/images/christitze/christitze1612/christitze161200498/66736821-gym-gold-text-on-black-background-3d-rendered-royalty-free-stock-picture-this-image-can-be-used-for-.jpg");
+            }
+
+        #leftdiv {
+            display: inline-block;
+
+        }
+
+        #middiv {
+
+            display: inline-block;
+            position: absolute;
+            left: 40%;
+            padding: 20px;
+
+
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 20px;
+            margin-right: 50px;
+            color: rgb(255, 255, 255);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bolder;
+            
+        }
+
+        #rightdiv {
+
+            display: inline-block;
+            position: absolute;
+            left: 88%;
+
+        }
+
+        button {
+            border-radius: 10px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        form {
+
+            display: inline-block;
+            position: absolute;
+            top: 50%;
+            left: 5%;
+            text-align: center;
+        }
+
+        input {
+
+            padding: 8px;
+            margin: 7px;
+            font-size: 23px;
+            width: 379px;
+            text-align: center;
+            border-radius: 20px;
+        }
+
+        form button {
+            font-size: 20px;
+            padding: 10px;
+
+        }
+
+        form button:hover {
+            background-color: rgb(219, 199, 119);
+        }
+
+        p {
+            font-size: 20px;
+            color: bisque;
+            font-weight: bolder;
+        }
+
+        img {
+            width: 114px;
+            height: 55px;
+            margin-left: 38px;
+            display: block;
+            filter: invert(100%);
+        }
+
+        #leftdiv p {
+            margin-left: 36px;
+
+            font-size: 21px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: white;
+        }
+
+        a:hover {
+            color: cadetblue;
+        }
+
+        @media(max-width:1202px) {
+            #middiv {
+                padding: 10px;
+                left: 20%;
+            }
+
+        }
+  
